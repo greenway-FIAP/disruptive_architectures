@@ -1,4 +1,4 @@
-![Greenway_Text](https://github.com/greenway-FIAP/database/assets/80494196/0b047b0f-e53c-4333-b62d-c77a01f623a0)
+![Greenway_TextGray](https://github.com/greenway-FIAP/disruptive_architectures/assets/80494196/8edcfcee-7c71-49c6-b0e4-96966aaf0c69)
 
 ### Sobre a solução
 O Greenway é uma inovadora plataforma SaaS projetada para auxiliar empresas na gestão de suas operações rumo à sustentabilidade. 
@@ -10,7 +10,7 @@ Um dos diferenciais do Greenway é a certificação por meio de badges gerados a
 Essa validação não apenas reforça a reputação das empresas no mercado, mas também fortalece o relacionamento com os consumidores finais. 
 Ao criar novos canais de comunicação e aumentar a transparência, lealdade, preferência e confiança também são cultivadas junto ao público-alvo.
 
-[Link da apresentação](https://youtu.be/WJ93nQ6kmbc)
+[Link da apresentação](https://youtu.be/eGrA5A0sdb8)
 
 ##
 
