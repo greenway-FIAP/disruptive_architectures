@@ -25,3 +25,74 @@ Ao criar novos canais de comunicação e aumentar a transparência, lealdade, pr
 - 97967 - Vinicius Oliveira de Almeida - Mastering Database
 
 - 98644 - Thiago Martins Bezerra - Quality Assurance
+
+#
+
+## Construir e Enviar Imagens Docker
+
+### Imagem Docker da API
+- Nome da Imagem: marceloamellopaixao/greenway-cv_api:latest
+- URL do Dockerhub: greenway-cv_api
+
+```bash
+  docker build -t marceloamellopaixao/greenway-cv_api:latest .
+  docker login
+  docker push marceloamellopaixao/greenway-cv_api:latest
+```
+
+## Executando a Aplicação API Localmente
+
+### 1º - Baixe a imagem mais recente da API:
+
+```bash
+  docker pull marceloamellopaixao/greenway-cv_api:latest
+```
+
+### 2º - Execute o contêiner da API:
+
+```bash
+  docker run -d -p 5000:5000 marceloamellopaixao/greenway-cv_api
+```
+
+## Executando a Aplicação Front-End Localmente
+
+### 1º - Faça o git clone do projeto front-end:
+```bash
+git clone https://github.com/greenway-FIAP/disruptive_architectures.git
+```
+
+### 2º - Navegue até o diretório do projeto front-end:
+
+```bash
+  cd caminho/para/projeto-front-end
+```
+
+### 3º - Instale as dependências:
+
+```bash
+  npm i
+```
+
+### 4º - Inicie o servidor de desenvolvimento:
+
+```bash
+  npm start dev
+```
+
+### 5º - Abra no seu navegador a url: 
+
+```bash
+  localhost:5173
+```
+
+#
+
+## Usando a Aplicação
+
+### 1º - Abra a aplicação front-end no seu navegador.
+
+### 2º - Faça o upload de uma imagem contendo um dos seguintes tipos:
+  - Garrafas Térmicas
+  - Produtos de Mercado
+
+### 3º - A aplicação processará a imagem e categorizará o tipo.
