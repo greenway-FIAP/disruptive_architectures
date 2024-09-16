@@ -37,6 +37,8 @@ As empresas que utilizam a plataforma recebem **certificações automáticas** e
 
 [Link da Apresentação](https://youtu.be/eGrA5A0sdb8)
 
+[Link do Video do Protótipo Funcional](https://youtu.be/gKEpcrAqC-I)
+
 ## Integrantes
 
 - **RM99513** - Rodrigo Batista Freire - Java Advanced
